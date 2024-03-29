@@ -252,6 +252,7 @@ button.btn-close {
     padding: 16px 15px;
     font-size: 16px;
     font-weight: 600;
+    display: inline-block;
 }
 
 .main-page-btn:hover {
@@ -263,6 +264,39 @@ button.btn-close {
     margin-right: 15px;
 }
 
+.advantages-block {
+    background-image: url("../images/close-up-of-green.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.advantages-item-yellow {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #FFD705;
+    line-height: 41px;
+    margin-bottom: 20px;
+}
+
+.advantages-item-white {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.advantages-item {
+    width: 244px;
+}
+
 @media(max-width:1199px) {}
 
 @media(max-width: 991px) {
@@ -272,6 +306,11 @@ button.btn-close {
 
     .header-contacts-block a {
         margin: 10px 15px 0 20px;
+    }
+
+    .advantages-block {
+        background-size: cover;
+        height: 270px;
     }
 }
 
@@ -305,6 +344,21 @@ button.btn-close {
 
     .main-banner-text h1 {
         font-size: 50px;
+    }
+
+    .advantages-block {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .advantages-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .advantages-item-yellow {
+        margin-bottom: 10px;
     }
 }
 
