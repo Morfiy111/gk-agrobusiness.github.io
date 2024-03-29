@@ -42,6 +42,9 @@ h2,
 h3,
 h4 {
     font-family: 'mplus1p', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .owl-feedback-form input,
@@ -68,6 +71,10 @@ button.btn-close {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #9AC31B;
 }
 
 .nav-item {
@@ -105,6 +112,7 @@ button.btn-close {
     padding: 16px 15px;
     color: #fff;
     outline: none;
+    font-weight: 600;
 }
 
 .button-green-main:hover {
@@ -153,6 +161,7 @@ button.btn-close {
 .main-banner-block {
     margin-top: -30px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .main-banner-block img {
@@ -228,6 +237,31 @@ button.btn-close {
     color: #5c7284;
 }
 
+.about-company-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text-center {
+    margin-bottom: 50px;
+}
+
+.main-page-btn {
+    border: 1px solid #2F4558;
+    border-radius: 10px;
+    padding: 16px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main-page-btn:hover {
+    background-color: #2F4558;
+    color: #fff;
+}
+
+.main-page-btn span {
+    margin-right: 15px;
+}
 
 @media(max-width:1199px) {}
 
