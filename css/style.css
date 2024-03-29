@@ -274,7 +274,8 @@ button.btn-close {
     padding: 60px 40px;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
 }
 
 .advantages-item-yellow {
@@ -295,6 +296,57 @@ button.btn-close {
 
 .advantages-item {
     width: 244px;
+}
+
+.subtitle-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blue-block-main {
+    background-color: #27B1FF0D;
+}
+
+.margintop-main-page {
+    padding-top: 190px;
+    padding-bottom: 10px;
+    margin-top: -135px;
+}
+
+.catalog-set-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.catalog-item {
+    width: 22%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 11px;
+}
+
+.catalog-item:hover {
+    box-shadow: 0px 0px 15px 14px rgba(0, 0, 0, 0.2);
+    transition: all .3s linear;
+}
+
+.catalog-image img {
+    width: 100%;
+}
+
+.catalog-good-name a,
+.catalog-category a {
+    color: #2F4558;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.catalog-image a:hover {
+    border-bottom-color: transparent;
 }
 
 @media(max-width:1199px) {}
@@ -360,6 +412,11 @@ button.btn-close {
     .advantages-item-yellow {
         margin-bottom: 10px;
     }
+
+    .catalog-item {
+        width: 46%;
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 600px) {}
@@ -367,5 +424,9 @@ button.btn-close {
 @media (max-width: 500px) {
     .main-banner-text h1 {
         font-size: 44px;
+    }
+
+    .catalog-item {
+        width: 100%;
     }
 }
