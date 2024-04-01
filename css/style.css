@@ -462,6 +462,7 @@ button.btn-close {
 .sunflower-background {
     background-image: url("../images/front-view-black-sunflower.png");
     border-radius: 0;
+    margin-bottom: 0;
 }
 
 .reviews-title {
@@ -489,6 +490,29 @@ button.btn-close {
 
 .reviews-item:hover img {
     transform: scale(1.2);
+}
+
+.partners-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partners-item {
+    width: 23%;
+}
+
+.partners-item img {
+    width: 100%;
+}
+
+.partners-block {
+    padding: 50px 0;
+}
+
+.questions-form {
+    background-image: url("../images/back-main-bottom.png");
+    border-radius: 0;
 }
 
 @media(max-width:1199px) {
