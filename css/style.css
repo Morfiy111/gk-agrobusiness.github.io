@@ -349,6 +349,67 @@ button.btn-close {
     border-bottom-color: transparent;
 }
 
+.background-image-main p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.background-image-main {
+    background-image: url("../images/pine-tree-leaves.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.white-title {
+    color: #fff;
+}
+
+.main-page-btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.main-page-btn-white:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #2F4558;
+}
+
+.advantages-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages-flex-item {
+    text-align: center;
+    width: 32%;
+    margin-bottom: 40px;
+}
+
+.advantages-flex-item img {
+    width: 100%;
+}
+
+.advantages-image {
+    margin-bottom: 30px;
+}
+
+.advantages-title {
+    color: #2F4558;
+    font-size: 16px;
+}
+
 @media(max-width:1199px) {}
 
 @media(max-width: 991px) {
