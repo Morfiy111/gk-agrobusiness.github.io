@@ -14,6 +14,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    color: #2F4558;
 }
 
 a {
@@ -357,7 +358,7 @@ button.btn-close {
 
 .background-image-main {
     background-image: url("../images/pine-tree-leaves.png");
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -410,7 +411,95 @@ button.btn-close {
     font-size: 16px;
 }
 
-@media(max-width:1199px) {}
+.feedback-dealers-form input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.feedback-dealers-form input:focus-visible {
+    outline: 2px solid #2F4558;
+}
+
+.feedback-dealers {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.feedback-dealers-img {
+    width: 442px;
+}
+
+.feedback-dealers-img img {
+    width: 100%;
+}
+
+.feedback-dealers-form {
+    padding: 40px;
+}
+
+.feedback-dealers-form h3 {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.button-blue {
+    background-color: #47BDFF;
+    height: 45px;
+    padding: 8px 15px;
+    border-color: #47BDFF;
+}
+
+.button-blue:hover {
+    border-color: #47BDFF;
+    background-color: #fff;
+    color: #47BDFF;
+}
+
+.sunflower-background {
+    background-image: url("../images/front-view-black-sunflower.png");
+    border-radius: 0;
+}
+
+.reviews-title {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.reviews-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.reviews-item {
+    width: 23%;
+}
+
+.reviews-img img {
+    width: 100%;
+    margin-bottom: 20px;
+    transition: all .3s linear;
+}
+
+.reviews-item:hover img {
+    transform: scale(1.2);
+}
+
+@media(max-width:1199px) {
+    .feedback-dealers-form input {
+        margin-bottom: 20px;
+    }
+
+    .feedback-dealers-form {
+        padding: 0 20px;
+    }
+}
 
 @media(max-width: 991px) {
     .navbar-expand-md {
@@ -424,6 +513,10 @@ button.btn-close {
     .advantages-block {
         background-size: cover;
         height: 270px;
+    }
+
+    .advantages-flex-item {
+        width: 48%;
     }
 }
 
@@ -478,9 +571,35 @@ button.btn-close {
         width: 46%;
         margin-bottom: 40px;
     }
+
+    .feedback-dealers-form input {
+        width: 100%;
+    }
+
+    .feedback-dealers {
+        flex-direction: column;
+    }
+
+    .feedback-dealers-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .reviews-flex {
+        flex-wrap: wrap;
+    }
+
+    .reviews-item {
+        width: 48%;
+    }
+
 }
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    .advantages-flex-item {
+        width: 100%;
+    }
+}
 
 @media (max-width: 500px) {
     .main-banner-text h1 {
@@ -488,6 +607,10 @@ button.btn-close {
     }
 
     .catalog-item {
+        width: 100%;
+    }
+
+    .reviews-item {
         width: 100%;
     }
 }
