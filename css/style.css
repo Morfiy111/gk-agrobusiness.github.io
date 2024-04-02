@@ -550,6 +550,24 @@ button.btn-close {
     border-color: #fff;
 }
 
+.breadcrumb a {
+    color: #2F455880;
+}
+
+.breadcrumb {
+    margin: 20px 0;
+    color: #2F455880;
+}
+
+.pages-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
