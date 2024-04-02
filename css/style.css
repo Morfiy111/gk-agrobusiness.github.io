@@ -189,7 +189,7 @@ button.btn-close {
 }
 
 .footer-page {
-    background-color: #5c7284;
+    background-color: #2F4558;
     padding: 40px 0;
     margin-top: 50px;
 }
@@ -513,6 +513,42 @@ button.btn-close {
 .questions-form {
     background-image: url("../images/back-main-bottom.png");
     border-radius: 0;
+    display: block;
+    margin-bottom: 0;
+}
+
+.questions-form input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 15px;
+    flex-grow: 1;
+}
+
+.questions-form form {
+    margin: 40px 0;
+    display: flex
+}
+
+.footer-flex-block .header-logo {
+    width: 161px;
+}
+
+.footer-flex-block .header-logo img {
+    width: 100%;
+}
+
+.footer-politics {
+    text-align: center;
+    color: #fff;
+}
+
+.footer-politics a {
+    color: #fff;
+}
+
+.footer-page a:hover {
+    border-color: #fff;
 }
 
 @media(max-width:1199px) {
@@ -541,6 +577,18 @@ button.btn-close {
 
     .advantages-flex-item {
         width: 48%;
+    }
+
+    .questions-form input {
+        margin-bottom: 20px;
+    }
+
+    .footer-flex-block {
+        flex-wrap: wrap;
+    }
+
+    .footer-links {
+        margin-right: 15px;
     }
 }
 
@@ -617,11 +665,19 @@ button.btn-close {
         width: 48%;
     }
 
+    .questions-form form {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 600px) {
     .advantages-flex-item {
         width: 100%;
+    }
+
+    .questions-form input {
+        width: 100%;
+        margin-right: 0;
     }
 }
 
