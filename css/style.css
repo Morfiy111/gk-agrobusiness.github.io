@@ -573,6 +573,15 @@ button.btn-close {
     margin-bottom: 20px;
 }
 
+.catalog-set-block-justify {
+    margin: 0 0 30px 0;
+    justify-content: space-between;
+}
+
+.catalog-set-block-justify.catalog-item {
+    margin: 0 0px 40px 0px;
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
