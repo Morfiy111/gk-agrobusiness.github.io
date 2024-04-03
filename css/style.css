@@ -673,7 +673,7 @@ button.btn-close {
     text-align: left;
 }
 
-.contacts-item-page a {
+.contacts-item-page span {
     display: block;
     margin-bottom: 10px;
 }
