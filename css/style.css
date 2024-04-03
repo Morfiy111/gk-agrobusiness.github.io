@@ -582,6 +582,44 @@ button.btn-close {
     margin: 0 0px 40px 0px;
 }
 
+.btn-dark-blue {
+    background-color: #27B1FF;
+    border-color: #27B1FF;
+    color: #fff;
+}
+
+.btn-dark-blue:hover {
+    background-color: transparent;
+    color: #27B1FF;
+    border-color: #27B1FF;
+}
+
+.catalog-category-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+    margin-top: 70px;
+
+}
+
+.catalog-category-img a:hover {
+    border-color: transparent;
+}
+
+.catalog-category-download {
+    text-align: center;
+}
+
+.catalog-category-img {
+    margin-right: 40px;
+}
+
+.catalog-category-img img {
+    width: 223px;
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
@@ -743,5 +781,13 @@ button.btn-close {
 
     .reviews-item {
         width: 100%;
+    }
+
+    .catalog-category-img {
+        margin-right: 0;
+    }
+
+    .catalog-category-page {
+        flex-direction: column;
     }
 }
