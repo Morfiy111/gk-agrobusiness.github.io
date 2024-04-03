@@ -654,6 +654,25 @@ button.btn-close {
     margin-bottom: -70px;
 }
 
+.about-company-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.about-company-img {
+    width: 35%;
+}
+
+.about-company-img img {
+    width: 100%;
+}
+
+.about-company-text {
+    width: 60%;
+    text-align: left;
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
@@ -836,5 +855,15 @@ button.btn-close {
 
     .catalog-category-page {
         flex-direction: column;
+    }
+
+    .about-company-block {
+        flex-direction: column;
+    }
+
+    .about-company-img,
+    .about-company-text {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
