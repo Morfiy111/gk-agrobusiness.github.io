@@ -620,6 +620,40 @@ button.btn-close {
     width: 223px;
 }
 
+.seeds-item-set img {
+    width: 100%;
+}
+
+.flex-seeds-set {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.seeds-item-company {
+    margin: 0 10px;
+}
+
+.infograph-block img {
+    width: 100%;
+}
+
+.infograph-block {
+    margin: auto;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.blue-block-main-dark {
+    background-color: #27B1FF33;
+}
+
+.blue-block-main-seeds {
+    padding: 40px 0;
+    margin-bottom: -70px;
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
@@ -674,6 +708,10 @@ button.btn-close {
 
     .catalog-item {
         margin: 0 10px 40px 10px;
+    }
+
+    .infograph-block {
+        width: 100%;
     }
 }
 
@@ -756,6 +794,15 @@ button.btn-close {
 
     .catalog-set-block {
         justify-content: space-between;
+    }
+
+    .flex-seeds-set {
+        flex-wrap: wrap;
+    }
+
+    .seeds-item-set {
+        width: 48%;
+        margin-bottom: 20px;
     }
 }
 
