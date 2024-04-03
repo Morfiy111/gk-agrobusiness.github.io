@@ -673,6 +673,32 @@ button.btn-close {
     text-align: left;
 }
 
+.contacts-item-page a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contacts-item-flex div {
+    padding: 10px 20px 10px 0;
+
+}
+
+.contacts-item-flex {
+    display: flex;
+}
+
+.contacts-item-flex div:first-child {
+    width: 280px;
+}
+
+.contacts-item-flex div:last-child {
+    width: 90%;
+}
+
+.contacts-table {
+    margin-bottom: 50px;
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
@@ -865,5 +891,13 @@ button.btn-close {
     .about-company-text {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .contacts-item-flex {
+        flex-direction: column;
+    }
+
+    .contacts-item-flex div:first-child {
+        font-weight: bold;
     }
 }
