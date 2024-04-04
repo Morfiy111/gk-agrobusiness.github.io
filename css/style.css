@@ -785,6 +785,26 @@ button.btn-close {
     width: 100%;
 }
 
+.certificates-block-page .reviews-title {
+    color: #2F4558;
+    font-size: 14px;
+}
+
+.certificates-block-page {
+    flex-wrap: wrap;
+}
+
+.certificates-block-page .reviews-item {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.certificates-block-page .reviews-item:hover img {
+    transform: scale(1.1);
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
