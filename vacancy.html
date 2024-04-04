@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>АгроБизнес | Группа компаний</title>
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="shadow-container">
+            <div class="container">
+                <div class="header-top-block">
+                    <div class="logo-block">
+                        <a href="/"><img src="images/logo.png" alt=""></a>
+                    </div>
+                    <div class="header-contacts-block">
+                        <a href="tel:+74712360137">+7 (4712) 36-01-37</a>
+                        <a href="mailto:office@gk-agrobusiness.ru">office@gk-agrobusiness.ru</a>
+                        <a href="#">Схема проезда</a>
+                    </div>
+                    <div class="header-top-button">
+                        <button class="button-green-main" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать
+                            звонок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="navbar navbar-expand-md navbar-dark" aria-label="Fourth navbar example">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-house"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Семена
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <ul class="navbar-sub">
+                                        <li><a href="#">О семенах</a></li>
+                                        <li><a href="#">Кукуруза</a></li>
+                                        <li><a href="#">Подсолнечник</a></li>
+                                        <li><a href="#">Соя</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">МикроФид</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Документы
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <ul class="navbar-sub">
+                                        <li><a href="#">Рецензии</a></li>
+                                        <li><a href="#">Свидетельства и сертификаты</a></li>
+                                        <li><a href="#">Отчёты о научно-исследовательской работе</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Вакансии</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-body">
+                        <div class="owl-feedback-form js-send-form">
+                            <h3>Заполните и отправьте заявку!</h3>
+                            <input type="text" name="name" placeholder="Ваше имя">
+                            <input type="text" name="phone" placeholder="Телефон">
+                            <input type="text" name="email" placeholder="email">
+                            <input type="text" name="service" placeholder="Вид услуги">
+                            <textarea rows="5" name="comment" placeholder="Описание заказа"></textarea>
+                            <div class="btn-block-center">
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="page-btn">Отправить
+                                    заявку</button>
+                                <p class="registration__agree">
+                                    Нажимая
+                                    кнопку
+                                    «Отправить заявку»
+                                    вы соглашаетесь с <a href="#">политикой
+                                        конфиденциальности</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <ul class="breadcrumb">
+            <li><a href="#">Главная</a> /&nbsp;</li>
+            <li><a href="#">Вакансии</a></li>
+        </ul>
+        <h1 class="pages-title">Вакансии</h1>
+
+        <div class="table-vacancy">
+            <h3 class="title-left">Региональный менеджер</h3>
+            <div class="contacts-table">
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">График работы:</div>
+                    <div class="vacancy-text">Понедельник-пятница с 8-30 до 17-30</div>
+                </div>
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">Обязанности:</div>
+                    <div class="vacancy-text">
+                        <ul>
+                            <li>Реализация средств защиты растений, микроудобрений и семян с/х культур;</li>
+                            <li>Заключение договоров поставки</li>
+                            <li>Обработка заявок и агро консультирование покупателей</li>
+                            <li>Контроль дебиторской задолженности согласно внутреннему регламенту;</li>
+                            <li>Документальное сопровождение сделок</li>
+                            <li>Привлечение новых клиентов по регионам;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">Требования и условия:</div>
+                    <div class="vacancy-text">
+                        <ul>
+                            <li>Высшее агрономическое образование</li>
+                            <li>Опыт работы в продажах средств защиты растений</li>
+                            <li>Отличные коммуникативные навыки, клиент ориентированность, позитивный настрой и
+                                готовность
+                                работать в команде являются преимуществом</li>
+                            <li>Уверенный пользователь ПК</li>
+                            <li>Наличие водительского удостоверения категории В;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">Заработная плата: </div>
+                    <div class="vacancy-text">Договорная</div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="main-page-btn"><span>Откликнуться</span><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+        <div class="table-vacancy">
+            <h3 class="title-left">Агроном семеновод</h3>
+            <div class="contacts-table">
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">График работы:</div>
+                    <div class="vacancy-text">Понедельник-пятница с 8-30 до 17-30</div>
+                </div>
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">Обязанности:</div>
+                    <div class="vacancy-text">
+                        <ul>
+                            <li>Организация работ по подготовке почвы к посеву</li>
+                            <li>Разработка мероприятий по приготовлению и внесению удобрений в почву</li>
+                            <li>Организация работ по посеву сельскохозяйственных культур</li>
+                            <li>Разработка планов, календарных графиков по уходу за посевами</li>
+                            <li>Контроль выполнения работ по уборке</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">Требования:</div>
+                    <div class="vacancy-text">
+                        <ul>
+                            <li>Агрономическое образование</li>
+                            <li>Опыт работы от 3х лет</li>
+                            <li>Знание технологий возделывания с/х культур, мер по предупреждению заболеваний культур,
+                                по борьбе с вредителями и сорняками</li>
+                            <li>Знание производителей удобрений, средств защиты растений, семян</li>
+                            <li>Уверенный пользователь ПК</li>
+                            <li>Коммуникабельность, инициативность, ответственность, активность, ориентация на
+                                результат, работа в команде</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">Условия: </div>
+                    <div class="vacancy-text">
+                        <ul>
+                            <li>Уровень дохода по результатам собеседования</li>
+                            <li>Оформление по ТК РФ</li>
+                            <li>Иногородним предоставление жилья</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="main-page-btn"><span>Откликнуться</span><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+        <div class="table-vacancy">
+            <h3 class="title-left">Управляющий директор в сельскохозяйственную компанию</h3>
+            <div class="contacts-table">
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">График работы:</div>
+                    <div class="vacancy-text">Понедельник-пятница с 8-30 до 17-30</div>
+                </div>
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">Обязанности:</div>
+                    <div class="vacancy-text">
+                        <ul>
+                            <li>осуществление полного руководства деятельностью сельхозпредприятия (посевная, уборочная
+                                кампания и пр.);</li>
+                            <li>организация работы, управление и контроль сотрудников: механизаторы, ИТР, гл.агроном,
+                                водители.</li>
+                            <li>выполнение плановых заданий по производству и реализации сельскохозяйственной продукции;
+                            </li>
+                            <li>>планирование, разработка и внедрение стратегических планов предприятия;</li>
+                            <li> организация контроль и обеспечение рационального использования земельного фонда,
+                                машинно-тракторного парка, топлива и средств защиты и питания растений;
+                            <li>планирование и контроль проведения планово-предупредительных ремонтов;</li>
+                            <li>разработка и внедрение мероприятий по повышению эффективности производства, сокращению
+                                затрат (материальных, финансовых, трудовых)</li>
+                            <li>обеспечение сохранности имущества организации;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">Требования:</div>
+                    <div class="vacancy-text">
+                        <ul>
+                            <li>ОБЯЗАТЕЛЬНО! опыт работы руководителем сельхоз предприятия (растениеводство)</li>
+                            <li>Высшее профильное образование (агрономическое, техническое);</li>
+                            <li>Хорошо развитые управленческие и коммуникативные навыки;</li>
+                            <li>Ответственное отношение к выполняемой работе;</li>
+                            <li>Порядочность.</li>
+                            <li>Если Вас заинтересовала наша вакансия и Ваш опыт работы соответствует описанным выше
+                                требованиям, присылайте на рассмотрение резюме. Ответ поступит в ближайшее время!</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacts-item-flex">
+                    <div class="vacancy-title">Условия: </div>
+                    <div class="vacancy-text">
+                        <ul>
+                            <li>Работа в крупной семеноводческой компании;</li>
+                            <li>Оформление в соответствии с ТК РФ;</li>
+                            <li>Компенсация аренды жилья;</li>
+                            <li>Предоставляется: корпоративное авто, связь, питание в столовой предприятия;</li>
+                            <li>Высокий уровень заработной платы по результатам собеседования</li>
+                            <li>Годовой бонус</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="main-page-btn"><span>Откликнуться</span><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="background-image-main questions-form">
+        <div class="container">
+            <h2 class="white-title">Остались вопросы?</h2>
+            <form method="post" action="/contact-us">
+                <input type="text" placeholder="Имя">
+                <input type="tel" placeholder="Телефон">
+                <button class="button-green-main button-blue">Оставить заявку</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer-page">
+        <div class="container">
+            <div class="footer-flex-block">
+                <div class="header-logo">
+                    <a href="/">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Главная</a>
+                    <a href="#">О компании</a>
+                    <a href="#">Семена</a>
+                    <a href="#">МикроФид</a>
+                    <a href="#">Документы</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Дилерам</a>
+                    <a href="#">Рецензии</a>
+                    <a href="#">Вакансии</a>
+                    <a href="#">Новости</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="footer-address">
+                    <div class="footer-address-item">
+                        <a href="tel:+74712360137">+7 (4712) 36-01-37</a>
+                    </div>
+                    <div class="footer-address-item">
+                        <a href="mailto:office@gk-agrobusiness.ru">office@gk-agrobusiness.ru</a>
+                    </div>
+                    <div class="footer-address-item">
+                        <a href="#">Схема проезда</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <button class="button-green-main" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать
+                        звонок</button>
+                </div>
+            </div>
+            <div class="footer-politics">
+                2024 г. <a href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="footer-copyright">
+                Разработано <a href="https://tetris-studio.ru" target="_blank">Tetris Studio</a>
+            </div>
+        </div>
+    </footer>
+    <div id="button-up" title="Вверх!">
+        <span></span>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

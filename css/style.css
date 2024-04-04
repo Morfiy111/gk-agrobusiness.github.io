@@ -699,6 +699,25 @@ button.btn-close {
     margin-bottom: 50px;
 }
 
+.title-left {
+    text-align: left;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.vacancy-title {
+    font-weight: bold;
+}
+
+.table-vacancy {
+    border-bottom: 1px solid #2F4558;
+    margin-bottom: 50px;
+}
+
+.table-vacancy:last-child {
+    border-bottom: none;
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
