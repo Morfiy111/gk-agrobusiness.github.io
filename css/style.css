@@ -814,6 +814,52 @@ button.btn-close {
     width: 95%;
 }
 
+.card-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.card-image-block img {
+    width: 100%;
+}
+
+.card-image-block a {
+    border-color: transparent;
+}
+
+.card-image-block {
+    width: 22%;
+}
+
+.card-property {
+    width: 75%;
+}
+
+.property-description {
+    margin-bottom: 30px;
+}
+
+.table-property {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.table-property td,
+.table-property th {
+    padding: 10px;
+    text-align: center;
+}
+
+.table-property th {
+    background-color: #9AC31B80;
+    border: 2px solid #fff;
+}
+
+.property-description ul li:before {
+    background-image: url("../images/polygon.png");
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
