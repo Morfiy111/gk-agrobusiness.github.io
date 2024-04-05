@@ -237,7 +237,7 @@ button.btn-close {
     color: #5c7284;
 }
 
-.about-company-text {
+.main-about-company-text {
     text-align: center;
     margin-bottom: 50px;
 }
@@ -860,6 +860,49 @@ button.btn-close {
     background-image: url("../images/polygon.png");
 }
 
+.dark-green-table {
+    background-color: #9AC31B;
+    color: #fff;
+
+}
+
+.dark-green-table td,
+.green-table-lane td {
+    border: 2px solid #fff;
+}
+
+.green-table-lane {
+    background-color: #9AC31B80;
+}
+
+.table-property-row-green {
+    background-color: #9AC31B80;
+}
+
+.table-property-row-green span {
+    font-weight: bold;
+}
+
+.table-property-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-property-item {
+    padding: 10px;
+    width: 33%;
+}
+
+.table-property-row-green .table-property-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.table-property-item img {
+    width: 40px;
+    margin-right: 10px;
+}
+
 @media(max-width:1199px) {
     .feedback-dealers-form input {
         margin-bottom: 20px;
@@ -922,6 +965,11 @@ button.btn-close {
 
     .interesting-more-news .news-block-img {
         height: 100px;
+    }
+
+    .table-property td,
+    .table-property th {
+        padding: 5px;
     }
 }
 
@@ -1026,6 +1074,21 @@ button.btn-close {
     .interesting-more-news .news-block-img img {
         height: 100px;
     }
+
+    .card-block {
+        flex-direction: column;
+    }
+
+    .card-image-block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-property {
+        width: 100%;
+    }
+
+
 }
 
 @media (max-width: 600px) {
@@ -1055,6 +1118,12 @@ button.btn-close {
 
     .news-block-info {
         width: 100%;
+    }
+
+    .table-property td,
+    .table-property th {
+        padding: 1px;
+        font-size: 12px;
     }
 }
 
@@ -1101,4 +1170,13 @@ button.btn-close {
         font-size: 32px;
     }
 
+    .table-property td,
+    .table-property th {
+        padding: 5px 0px;
+        font-size: 11px;
+    }
+
+    .table-property td {
+        border: 1px solid #2F4558;
+    }
 }
