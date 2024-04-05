@@ -209,6 +209,7 @@ button.btn-close {
 .footer-copyright {
     font-size: 11px;
     color: #fff;
+    text-align: center;
 }
 
 .footer-copyright-company {
@@ -971,6 +972,15 @@ button.btn-close {
     .table-property th {
         padding: 5px;
     }
+
+    .table-property-row-green .table-property-item {
+        flex-direction: column;
+    }
+
+    .table-property-item img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -1179,4 +1189,24 @@ button.btn-close {
     .table-property td {
         border: 1px solid #2F4558;
     }
+
+    .table-property-item {
+        padding: 10px 3px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .table-property-row {
+        flex-wrap: wrap;
+    }
+
+    .table-property-row-green .table-property-item {
+        flex-direction: row;
+    }
+
+    .table-property-item img {
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
 }
